@@ -1,0 +1,33 @@
+﻿abbr,city,team,conference,division,confdiv
+NYJ,New York,Jets,AFC,East,AFC East
+BAL,Baltimore,Ravens,AFC,North,AFC North
+BUF,Buffalo,Bills,AFC,East,AFC East
+LA,Los Angeles,Rams,NFC,West,NFC West
+CAR,Carolina,Panthers,NFC,South,NFC South
+CLE,Cleveland,Browns,AFC,North,AFC North
+SEA,Seattle,Seahawks,NFC,West,NFC West
+DEN,Denver,Broncos,AFC,West,AFC West
+MIN,Minnesota,Vikings,NFC,North,NFC North
+GB,Green Bay,Packers,NFC,North,NFC North
+IND,Indianapolis,Colts,AFC,South,AFC South
+HOU,Houston,Texans,AFC,South,AFC South
+JAX,Jacksonville,Jaguars,AFC,South,AFC South
+WAS,Washington,Commanders,NFC,East,NFC East
+KC,Kansas City,Chiefs,AFC,West,AFC West
+ARI,Arizona,Cardinals,NFC,West,NFC West
+LAC,Los Angeles,Chargers,AFC,West,AFC West
+LV,Las Vegas,Raiders,AFC,West,AFC West
+NE,New England,Patriots,AFC,East,AFC East
+MIA,Miami,Dolphins,AFC,East,AFC East
+ATL,Atlanta,Falcons,NFC,South,NFC South
+NO,New Orleans,Saints,NFC,South,NFC South
+NYG,New York,Giants,NFC,East,NFC East
+TEN,Tennessee,Titans,AFC,South,AFC South
+DET,Detroit,Lions,NFC,North,NFC North
+PHI,Philadelphia,Eagles,NFC,East,NFC East
+PIT,Pittsburgh,Steelers,AFC,North,AFC North
+CIN,Cincinnati,Bengals,AFC,North,AFC North
+CHI,Chicago,Bears,NFC,North,NFC North
+SF,San Francisco,49ers,NFC,West,NFC West
+DAL,Dallas,Cowboys,NFC,East,NFC East
+TB,Tampa Bay,Buccaneers,NFC,South,NFC South
