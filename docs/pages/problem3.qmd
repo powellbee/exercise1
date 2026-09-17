@@ -59,7 +59,7 @@ regular_season_yards %>%
 
 ```{r}
 library(readr)
-NFL_Divisions <- read_csv("NFL Divisions.csv")
+NFL_Divisions <- read_csv("~/Documents/exercise1/NFL Divisions.csv")
 NFL_Divisions
 total_yard_teams <- full_join(regular_season_yards, NFL_Divisions, by = join_by("posteam" == "abbr"))
 total_yard_teams <- full_join(total_yard_teams, NFL_Divisions, by = join_by("defteam" == "abbr"))

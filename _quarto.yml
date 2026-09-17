@@ -20,10 +20,10 @@ website:
     collapse-level: 1
     contents:
       - index.qmd
-      - pages/Code Sample.R
-      - pages/Problem2.Rmd
-      - pages/Problem 3.qmd
-  page-navigation:true
+      - pages/problem1.qmd
+      - pages/problem2.qmd
+      - pages/problem3.qmd
+  page-navigation: true
   reader-mode: true
   
 format:

@@ -1,1 +1,47 @@
+---
+title: "Problem1"
+format: html
+editor: visual
+---
 
+```{r}
+library (palmerpenguins) 
+library (tidyverse) 
+data("penguins")
+
+CleanPenguins <- penguins %>% na.omit() %>% select (-year, -island) 
+```
+
+CleanPenguins is a dataframe based on the penguins dataset that removes empty records and items and selects all columns except 'year' and 'island'
+
+```{r}
+LongPenguins <- CleanPenguins %>% pivot_longer(cols = c(bill_length_mm, bill_depth_mm, flipper_length_mm, body_mass_g), names_to = "measurement")
+```
+
+LongPenguins is a dataframe that transforms the previous dataframe, CleanPenguins to rearrange the data into four variables: 'species', 'sex', 'measurement', and 'value'. this takes the number of records from 344 to 1332, hence the pivot_LONGER. This dataframe is less wide than the previous.
+
+```{r}
+PenguinStats <- LongPenguins %>% group_by(sex, measurement) %>% summarize (Min = min(value), Avg = mean (value), Max = max (value), StdDev = sd(value))%>% arrange (measurement) 
+```
+
+PenguinStats transforms LongPenguins by providing quantitative descriptions of each value, ordered by 'sex' and 'measurement'. These quantitative measurements are minimum, average, maximum, and standard deviations of each value within 'sex' and 'measurement'.
+
+```{r}
+PenguinAvg <- PenguinStats %>% select (-Min, -Max,-StdDev) %>% pivot_wider(names_from = sex, values_from = Avg ) 
+
+
+```
+
+PenguinAvg further transforms PenguinStats by providing the average value across both sexes. The select(- \*\*) arguments indicate the dataframe is selected minus those specified fields/columns.
+
+```{r}
+CleanPenguins %>% ggplot (aes (x= bill_length_mm, y = bill_depth_mm, color = species))+geom_point() 
+```
+
+CleanPenguins dataframe is used to display a dot graph to visualize bill_depth_mm vs. bill_length_mm with various colors indicating the measurement differences among the three species
+
+describe what you learn from this graph!
+
+```{r}
+CleanPenguins %>% ggplot (aes (x= bill_length_mm, y = bill_depth_mm, color = species))+geom_point()+labs(x="Bill Length Measurement in mm", y="Bill Depth Measurement in mm", title = "Bill Depth vs. Length Measurement Among Species")
+```
