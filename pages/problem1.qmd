@@ -1,7 +1,8 @@
 ---
-title: "Problem1"
-format: html
-editor: visual
+title: "Problem 1"
+author: "Powell Braddock"
+date: "`r Sys.Date()`"
+output: html_document
 ---
 
 ```{r}
