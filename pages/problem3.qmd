@@ -1,8 +1,8 @@
 ---
 title: "Problem 3"
-author: "Powell Braddock"
-date: "`r Sys.Date()`"
-output: html_document
+format: html
+execute:
+  error: true
 ---
 
 The NFL has two conferences, the NFC and the AFC. Within each conference there are four divisions; East, West, North, and South. Each division has four teams. The Carolina panthers play in the NFC South division. In this problem we will analyze data on NFL results. Use the nflfastR library to download play by play results for the 2023 season. Then do the following:

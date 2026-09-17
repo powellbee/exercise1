@@ -5,7 +5,7 @@ project:
     - index.qmd
     - pages/problem1.qmd
     - pages/problem2.qmd
-    - pages/problem2.qmd
+    - pages/problem3.qmd
 
 website:
   title: "Exercise 1"
