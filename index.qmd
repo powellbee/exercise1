@@ -1,0 +1,15 @@
+---
+title: "Exercise 1"
+format: html
+toc: TRUE
+editor_options: 
+  chunk_output_type: inline
+---
+
+# Table of Contents for Exercise 1
+
+-   [Problem 1](https://pebraddo.github.io/exercise1/pages/problem1.html)
+
+-   [Problem 2](https://pebraddo.github.io/exercise1/pages/problem2.html)
+
+-   [Problem 3](https://pebraddo.github.io/exercise1/pages/problem3.html)
