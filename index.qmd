@@ -8,8 +8,8 @@ editor_options:
 
 # Table of Contents for Exercise 1
 
--   [Problem 1](https://pebraddo.github.io/exercise1/pages/problem1.html)
+-   [Problem 1](https://powellbee.github.io/exercise1/pages/problem1.html)
 
--   [Problem 2](https://pebraddo.github.io/exercise1/pages/problem2.html)
+-   [Problem 2](https://powellbee.github.io/exercise1/pages/problem2.html)
 
--   [Problem 3](https://pebraddo.github.io/exercise1/pages/problem3.html)
+-   [Problem 3](https://powellbee.github.io/exercise1/pages/problem3.html)
